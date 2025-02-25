@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title style='color: rgb(62, 62, 236);'>Chordify</title>
+</head>
+<body>
+    <div class="container">
+        <h1 style='color: rgb(120, 224, 142);'>Chordify</h1>
+        <input type="file" id="fileUpload" accept="audio/mp3">
+        <button id="uploadButton">Upload MP3</button>
+        <div id="progressContainer">
+            <progress id="progressBar" value="0" max="100"></progress>
+        </div>
+        <div id="loadingIndicator" style="display:none;">
+            <img src="path/to/loading-spinner.gif" alt="Loading..." />
+            <p>Loading, please wait...</p>
+        </div>
+        <div id="results">
+            <h2>Results</h2>
+            <div id="chordResults"></div>
+        </div>
+        <div id="faq">
+            <h3>Instructions/FAQ</h3>
+            <p>Upload an MP3 file to recognize chords.</p>
+        </div>
+    </div>
+    <script src="/static/app.js"></script>
+    <div class='info-container' style='text-align: center;'>
+        <p>Help me cover server costs and keep it ad-free forever! <a href='https://www.buymeacoffee.com/jicoing' target='_blank' style='color: rgb(120, 224, 142);'>Buy me a coffee</a></p>
+        <h2>How This Tool Works</h2>
+        <p>This web application allows users to upload MP3 files for chord recognition. The uploaded audio is processed to detect chords using advanced audio analysis techniques. The recognized chords are then displayed along with their duration, helping musicians and enthusiasts understand the structure of the music.</p>
+        <p style='text-align: center;'>Disclaimer: Please ensure that you have the rights to use any copyrighted music before uploading.</p>
+
+    </div>
+</body>
+</html>
