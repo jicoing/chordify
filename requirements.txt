@@ -1,6 +1,5 @@
 flask
-librosa
-soundfile
-numpy
-scipy
+librosa==0.10.1
+soundfile==0.12.1
+numpy==1.24.4
 resampy
