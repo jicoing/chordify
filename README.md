@@ -1,19 +1,40 @@
-# Chord Recognition Web App
+# Chord Recognition Tool
 
 ## Overview
-This web application allows users to upload MP3 files for chord recognition. The uploaded audio is processed to detect chords using advanced audio analysis techniques. The recognized chords are then displayed along with their duration, helping musicians and enthusiasts understand the structure of the music.
+This web application allows users to upload audio files for chord recognition. It processes the uploaded audio to detect chords and displays the results.
 
 ## Features
 - Upload MP3 files for chord recognition.
 - Displays recognized chords with their duration.
 - User-friendly interface.
 
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<username>/chordify.git
+   cd chordify
+   ```
+2. Create a virtual environment:
+   ```bash
+   mkvirtualenv venv --python=python3.8
+   ```
+3. Activate the virtual environment:
+   ```bash
+   workon venv
+   ```
+4. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Running the Application
+To run the application, use the following command:
+```bash
+flask run
+```
+
 ## Disclaimer
-Please ensure that you have the rights to use any copyrighted music before uploading.
+Ensure you have the rights to use any copyrighted music before uploading.
 
-## How to Run the Application
-1. Clone the repository.
-2. Install the required dependencies using `pip install -r requirements.txt`.
-3. Run the application with `flask run`.
-
-
+## Support
+Help me cover server costs and keep it ad-free forever! [Buy me a coffee](https://www.buymeacoffee.com/jicoing)

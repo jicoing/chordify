@@ -9,3 +9,5 @@ __pycache__/
 *.egg
 context.md
 monday.com Web 1.png
+
+.vercel
